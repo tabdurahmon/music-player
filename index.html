@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>music player</title>
+  </head>
+  <body>
+    <div class="music container" id="music container">
+      <img
+        src="./images/melodija-dozhdja.jpeg"
+        alt=""
+        class="cover"
+        id="cover"
+        width="200"
+        height="200"
+      />
+      <audio src="./music/melodija-dozhdja.mp3"></audio>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress">
+        <div class="control-buttons">
+          <button id="forward">
+            <i class="fa-solid fa-backward-step"></i>
+          </button>
+          <button id="play"><i class="fa-solid fa-play"></i></button>
+          <button id="backward">
+            <i class="fa-solid fa-forward-step"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
